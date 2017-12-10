@@ -8,7 +8,7 @@ namespace WebAPISample.Controllers
         public Employee Get()
         {
             //Changed file
-            Employee e = new Employee();
+            var e = new Employee();
             e.FirstName = "Sukesh";
             e.LastName = "Marla";
             e.Salary = 25000;
